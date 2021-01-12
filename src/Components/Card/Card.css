@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.headerName {
+    padding: 20px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.content {
+    height: 150px;
+    text-align: left;
+    padding: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}

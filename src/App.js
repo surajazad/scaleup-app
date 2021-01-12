@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Card from './Components/Card/Card';
+
 
 function App() {
+
+  const cardValues = {
+    headerName : "Test Header",
+    content : " Test Content",
+    cta: "Enquire Now"
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Card value={cardValues}/>
     </div>
   );
 }

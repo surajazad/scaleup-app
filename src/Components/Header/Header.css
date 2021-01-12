@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    height: 60px;
+    background: grey;
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu li {
+    text-align: center;
+    padding: 18px 25px;
+}
+
