@@ -1,0 +1,53 @@
+.whoBenefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.benefitsHeader {
+    padding: 20px;
+    text-align: center
+}
+
+.benefitsBody {
+    padding: 20px;
+    display: flex;
+}
+
+.benefitsFooter{
+    padding: 20px;
+    text-align: center;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.col-content {
+    background-color: blue;
+    color: white;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 20px;;
+}
+
+.col-right {
+    display: flex;
+}
+
+.col-right-content {
+    background-color: #4472c4;
+    color: white;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: x-small;
+}
+  
+  
+  
+  

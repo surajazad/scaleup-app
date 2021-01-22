@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Card from './Components/Card/Card';
-
+import WhoBenefits from './Components/WhoBenefits/WhoBenefits';
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card value={cardValues}/>
+      <WhoBenefits />
     </div>
   );
 }
